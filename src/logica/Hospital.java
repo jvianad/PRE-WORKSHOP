@@ -7,11 +7,11 @@ public class Hospital {
     public double calcularValorBaseCita(Usuario usuario){
         valorBaseAPagar=0;
         if (usuario.obtenerTipo().equals("EPS")){
-            return valorBaseAPagar=30000;
+            valorBaseAPagar=30000;
         } else if (usuario.obtenerTipo().equals("POLIZA")) {
-            return valorBaseAPagar=40000;
+            valorBaseAPagar=40000;
         } else if (usuario.obtenerTipo().equals("PARTICULAR")) {
-            return valorBaseAPagar=70000;
+            valorBaseAPagar=70000;
         }
         return valorBaseAPagar;
     }
